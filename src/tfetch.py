@@ -6,7 +6,6 @@ import re
 import subprocess
 import json
 import time
-from subprocess import run
 
 def termRun(command, arguments):
     output = subprocess.run([command, arguments],text=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
