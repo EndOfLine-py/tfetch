@@ -1,0 +1,60 @@
+[project]
+name = "tfetch"
+
+version = "1.0.0" #Change This To Your Current Ver
+
+description = "fetch script in a tree layout."
+
+readme = "README.md"
+
+requires-python = ">=3.10"
+
+license = {file = "LICENSE.md"}
+
+keywords = ["sample", "setuptools", "development"]
+
+authors = [
+  {name = "EndOfLine-py", email = "email@emailprovider.com"} # Add Your Email Here
+]
+
+maintainers = [
+  {name = "EndOfLine-py", email = "email@emailprovider.com"}, # Same Here
+  {name = "DriftingOtter", email = "dakshkaul7790@gmail.com"}
+]
+
+classifiers = [
+  "Development Status :: TBD",
+
+  "Intended Audience :: Linux Users",
+  "Topic :: CLI Applications :: Fetch Script",
+
+  "License :: OSI Approved :: TBD",
+
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3 :: Only",
+]
+
+dependencies = [
+  "wmctrl",
+  "os",
+  "distro",
+  "platform",
+  "re",
+  "subprocess",
+  "json",
+  "time"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/EndOfLine-py/tfetch"
+"Bug Reports" = "https://github.com/EndOfLine-py/tfetch/issues"
+
+[tool.setuptools]
+package-data = {"sample" = ["*.dat"]}
+
+[build-system]
+requires = ["setuptools>=43.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
