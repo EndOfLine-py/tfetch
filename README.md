@@ -19,12 +19,11 @@ git clone https://github.com/EndOfLine-py/tfetch
 
 3. Run Installation Script:
 
-Once cloned, run the ```install.sh``` bash script to allow you to run the script from anywhere on your system.
+Once cloned, run the ```tfetch.py``` python script in the src folder
 
 ``` bash
-sudo chmod +x install.sh
-
-./install.sh
+cd src
+python tfetch.py
 ```
 
 4. Enjoy!
